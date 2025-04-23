@@ -1,0 +1,72 @@
+Web : 
+It is an information space, which comprises of documents and web resources and are interlined by hyperlinks and have some specific URL which are access via internet.
+
+WebPage :
+Web pages are the documents which are written in a plain text.
+Web page contains multi media content(Images, audio, video etc).
+Every web page have some specific URL.
+Must be deployed on atleast one server.
+
+WebSite : 
+Collection of web pages.
+There are 2 types of websites :
+    a. static website
+    b. dynamic website
+
+a. static website : 
+    |-- one way communication takes place
+    |-- contents may not change so frequently
+
+b. dynamic website :
+    |-- two way communication takes place
+    |-- contents may change accordingly 
+    |-- dynamic websites are also known as web application
+
+Web Application : 
+Application which runs on the browser and whose execution takes place on the server is known as web application. It basically follows client server architecture.
+
+        |----------request-----------> 
+        Client  <------Http------> Server 
+        <----------response-----------|
+
+        HTTP : Hyper Text Transfer Protocol
+               (stateless protocol)
+
+               |--x----------> 
+               |--x---------->
+
+Server : 
+Server is a highly configured machine, which stores data, performs processing on that data and helps in retrieval of data.
+Types of server : 
+    |-- web server
+    |-- application server
+
+-------------------------------------------------------
+
+Web Application 
+    |-- Front End
+        |-- Web designing
+            |-- Web Technologies
+                |-- HTML 
+                    |-- Structure of web page
+                    |-- Tags
+                |-- CSS
+                    |-- Provides styling effects to our web page
+                    |-- properties
+                |-- Media Query
+                    |-- Responsiveness
+                |-- Bootstrap
+                    |-- Responsiveness
+                    |-- Media Query
+                |-- JavaScript
+                    |-- Validation
+                    |-- Events
+                    |-- Client side as well as server side
+                |-- ReactJS | Angular
+                    |-- VDOM 
+            
+    |-- Back End
+        |-- Web development
+            |-- Programming Language
+                |-- java, python, php, .net etc
+            |-- 

@@ -1,0 +1,64 @@
+JavaScript : 
+JavaScript is a prototype based object oriented, case sensitive, imperative (5-2=3), loosely typed and interpreted scripting language.
+
+
+Function
+
+-- function expression
+
+function(){
+    .....
+    .....
+}
+
+-- function definition | function declaration
+
+function display(){
+    ....
+    ....
+}
+
+-- variable function | anonymous function | function expression 
+
+var display = function(){
+    ....
+    ....
+}
+
+-- Arrow function | Lambda expression
+
+var display = ()=>{
+    ....
+    ....
+}
+
+-- immediately invoked lambda expressio(arrow function)
+
+    ((a,b)=>{
+        ....
+        ....
+    })(a,b);
+
+-- immediately invoked function expression
+
+    (function(){
+        ....
+        ....
+    })();
+
+------>  Jagged Array
+
+----------------------------------
+
+Object: 
+
+1. by object literal
+    var obj = {
+        key : value,
+        key : value
+    }
+
+
+2. by Object constructor
+    
+    var obj = new Object(); 
