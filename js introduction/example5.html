@@ -1,0 +1,31 @@
+<!-- callback hell | pyramid of doom -->
+<script>
+var num1 = 5;
+var num2 = 6;
+
+function addition(a,b,callback){
+    console.log("Addition : ",a+b);
+    callback(false);
+}
+function subtraction(a,b,callback){
+    console.log("Subtraction : ",a-b);
+    callback(true);
+}
+function multiplication(a,b,callback){
+    console.log("Multiplication : ",a*b);
+    callback();
+}
+
+addition(num1,num2,function(value){
+    if(!value){
+        subtraction(num1,num2,function(value){
+            if(value){
+                multiplication(num1,num2,function(){
+                    console.log("End of program");
+                });
+            }
+        });
+    }   
+});
+</script>
+
