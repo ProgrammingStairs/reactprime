@@ -1,0 +1,2 @@
+CORS is a security feature in browsers. It allows servers to tell the browser:
+“Yes, I allow this other domain to access my resources.”
